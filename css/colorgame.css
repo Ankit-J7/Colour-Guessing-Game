@@ -1,0 +1,77 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	background-color:black;
+}
+h1 {
+	background-color: rgb(110, 67, 211);
+	color: white;
+	margin: 0 auto;
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: normal;
+
+	
+}
+.square{
+	border-radius: 10%;
+	background: red;
+	width: 30%;
+	padding-bottom:30%;
+	margin: 1.66%;
+	float: left;
+	transition: background 1.0s;
+	-webkit-transition: background 1.0s;
+	-moz-transition:background 1.0s ;
+}
+#container{
+	width:35%;
+	margin: 0 auto;
+}
+
+.buttoncolor{
+	background-color:rgb(110, 67, 211);
+}
+#menu{
+	
+	background-color: rgb(179, 241, 228);
+	text-align: center;
+
+	margin: 10px 0px;
+	
+}
+.bb{
+	font-size: 20px;
+}
+button{
+	letter-spacing: 1px;
+	height: 45px;
+	background-color: rgb(179, 241, 228);
+	padding: 10px;
+	border: none;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	text-transform: uppercase;
+	transition: all 1.0s;
+	outline: none;
+}
+#message{
+	color: black;
+	font-size:20px;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	display: inline-block;
+	width: 30%;
+	text-transform: none;
+}
+p{
+	font-size: 50px;
+	margin: 10px;
+}
+button:hover {
+	color: white;
+	background-color:rgb(110, 67, 211);
+}
+#head{
+	padding: 15px 0px;
+}
